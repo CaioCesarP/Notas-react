@@ -1,0 +1,31 @@
+.lista-categorias {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    margin-top: 1.7rem;
+}
+
+.lista-categorias_lista {
+    display: flex;
+    justify-content: space-evenly;
+    grid-column: 1;
+}
+
+.lista-categorias_item {
+    padding: 10px;
+    background-color: var(--secundaria);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.lista-categorias_input {
+    grid-column: 2;
+    width: 70%;
+    border: none;
+    padding: 4px;
+    background-color: var(--fundo-detalhes);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    justify-self: center;
+}
